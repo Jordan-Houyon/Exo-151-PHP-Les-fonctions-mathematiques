@@ -5,13 +5,14 @@
  */
 $value = -8;
 // TODO Votre code ici.
-
+echo '<p>'.abs($value);
 
 /**
  * 2. Affichez dans un <p> la valeur de 5.64 arrondit au nombre supérieur.
  */
 $value = 5.64;
 // TODO Votre code ici.
+echo'<p>'.ceil($value);
 
 
 /**
@@ -19,6 +20,7 @@ $value = 5.64;
  */
 $value = 5.34;
 // TODO Votre code ici.
+echo'<p>'.floor($value);
 
 
 /**
@@ -27,6 +29,8 @@ $value = 5.34;
 $max = [5, 10, 12, 8, 7, 6, 54, 39, 76, 63, 84, 2, 21];
 $min = [5, 41, 65, 4, 3, 65, 2, 65, 74, 51, 23, 39, 42];
 // TODO Votre code ici.
+echo'<p>'.max($max);
+echo'<p>'.min($min);
 
 
 /**
@@ -34,7 +38,7 @@ $min = [5, 41, 65, 4, 3, 65, 2, 65, 74, 51, 23, 39, 42];
  */
 
 // TODO Votre code ici.
-
+echo'<p>'.pi()*2;
 
 /**
  * 6. Affichez dans un <p> la valeur arrondie de 5.42 avec la fonction round().
@@ -42,7 +46,7 @@ $min = [5, 41, 65, 4, 3, 65, 2, 65, 74, 51, 23, 39, 42];
 $value = 5.42;
 // TODO Votre code ici.
 
-
+echo'<p>'.round($value);
 
 
 
